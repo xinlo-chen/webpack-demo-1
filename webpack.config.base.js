@@ -17,6 +17,7 @@ module.exports = {
                 test: /\.(png|svg|jpg|gif)$/,
                 use: ["file-loader"]
             },
+            //把文件变成文件路径
             {
                 test: /\.styl$/,
                 loader: ["style-loader", "css-loader", "stylus-loader"]
